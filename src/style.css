@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('roboto.ttf');
+}
+
+html {
+	background: url('wallpapergradient_small.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'roboto';
+}
+
+#container {
+	position: absolute;
+	height: 410;
+	width: 820;
+	margin: auto;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+}
+
+#one {
+	position: absolute;
+	height: 410;
+	width: 820;
+	margin: auto;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+
+	background: #000319;
+	opacity: 0.8;
+	transition: 0.2s ease;
+	
+	border-radius: 15px;
+}
+
+#one:hover {
+	opacity: 0.7;
+}
+
+#clock {
+	text-align: center;
+	line-height: 100px; 
+	font-size: 112;
+	margin: 0;
+	padding-top: 150;
+}
+
+h1 {
+	color: #eee;
+}
